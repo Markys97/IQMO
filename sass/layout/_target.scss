@@ -1,0 +1,60 @@
+.target{
+    margin-top: 111px;
+    min-height: 710px;
+    background: url(../../img/fon-left.png);
+    background-position: 121px 32px;
+    background-repeat: no-repeat;
+    // background-size: cover;
+    &__container,&__content{
+        min-height: 100%;
+    }
+
+    &__body{
+        margin-top: 164px;
+        max-width: 572px;
+        margin-left: auto;
+    }
+    &__text{
+        font-family: 'Gotham Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        color: #8997AB;
+        &--color{
+            font-size: 30px;
+            line-height: 52px;
+            color: #E2521D;
+            margin-bottom: 50px;
+            
+        }
+        
+    }
+   
+}
+
+@media screen and (max-width:768px) {
+    .target{
+        margin-top: 70px;
+        min-height: unset;
+        background: unset;
+        margin-bottom:50px;
+        &__body{
+            margin-top: 70px;
+            // border: 1px solid red;
+            margin-left: auto;
+        }
+        &__text{
+            font-size: 14px;
+            line-height: 28px;
+            &--color{
+                font-size: 18px;
+                line-height: 34px;
+                margin-bottom: 25px;
+                
+            }
+            
+        }
+    }
+   
+}

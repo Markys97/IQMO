@@ -1,0 +1,28 @@
+.program{
+    margin-top: 115px;
+    &__container,&__content{
+        height: 100%;
+    }
+    &__content{
+        padding: 0 36px 0 11px;
+    }
+    &__title{
+        max-width: 314px;
+        margin: 0 auto 75px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .program{
+        margin-top: 70px;
+       
+        &__content{
+            padding: 0;
+            // border: 1px solid red;
+        }
+        &__title{
+            max-width: unset;
+            margin: 0 0 70px;
+        }
+    }
+}
