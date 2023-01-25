@@ -442,9 +442,9 @@ body {
 }
 .form__checkbox label span::after {
   display: block;
-  content: url(../../img/Vector.svg);
+  content: url(.../img/Vector.svg);
   position: absolute;
-  left: 4px;
+  left: 4px
   top: 4px;
   width: 13px;
   height: 8px;
@@ -1153,7 +1153,7 @@ body {
 .target {
   margin-top: 111px;
   min-height: 710px;
-  background: url(.../img/fon-left.png);
+  background: url(../img/fon-left.png);
   background-position: 121px 32px;
   background-repeat: no-repeat;
 }
